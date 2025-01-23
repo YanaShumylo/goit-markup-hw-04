@@ -118,12 +118,12 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1140px;
-    margin: auto;
+    margin: 0 auto;
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/fon-hero.jpeg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .title {
@@ -313,51 +313,41 @@ margin-bottom: 72px;
 }
 .portfolio-item {
 width: calc (( 100% - 72 px ) / 4);}
-/* 
-.item-two { 
-width: 360px;
-height: 300px;
-position: relative;
-overflow: hidden;}
-
-.image-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
+ 
+/* .item-two { 
+cursor: pointer;
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay {
-  position: absolute;
+.item-two:hover,
+.item-two:focus 
+{box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+  0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}
+
+.portfolio-two:hover .overley-text,
+.portfolio-two:focus .overley-text {
+  transform: translateY(0);
+  background-color: #4d5ae5;}
+
+.images-overlay {
+  position: relative;
+  overflow: hidden;}
+
+.overlay-text {  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  padding: 40px 32px;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #4D5AE5;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.item-two .overley
-{
-  opacity: 1;
-}
-
-.overlay-text {font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
-padding: 40px 32px 164px 32px;
-display: flex;}
-
-/* .overlay code {
-  display: inline-block;
-  padding: 2px 4px;
-  border-radius: 2px;
-  background-color: #4D5AE5;
-  } */ */
+  position: absolute;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);} */
 
 .project-text {
 border: 1px solid #e7e9fc;
