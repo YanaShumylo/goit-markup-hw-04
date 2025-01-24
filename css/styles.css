@@ -122,9 +122,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
      background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #2e2f42;
     background-image: 
-    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/fon-hero.jpeg);
-background-color: #2e2f42;}
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/fon-hero.jpeg);
+}
 
 .title {
   font-size: 56px;
@@ -186,10 +187,6 @@ justify-content: center;
 align-items: center; 
 margin-bottom: 8px;
 }
-
-  .icon {
-    fill: none;
-     }
 
 .list-feature {
   display: flex;
@@ -271,9 +268,8 @@ gap: 24px;
 
 .ourtem-icon:hover {
   background-color: #31D0AA;
-  transform: scale(1);
+  }
 
-}
 .ourtem-icon {
 width: 40px;
 height: 40px;
