@@ -114,17 +114,17 @@ padding: 24px 0;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero {background-color: #2e2f42;
+.hero {
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1140px;
     margin: 0 auto;
-    background-image: 
-    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/fon-hero.jpeg);
-  background-repeat: no-repeat;
+     background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+    background-image: 
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/fon-hero.jpeg);
+background-color: #2e2f42;}
 
 .title {
   font-size: 56px;
